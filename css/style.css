@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+  padding-top: 3em;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-bottom: 3em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: antiquewhite;
+  background-image: url('../img/solarsystem.jpg');
+  text-align: center;
+  position: relative;
+}
+
+img {
+  border-width: 1px;
+  border-radius: 60%;
+}
+
+img:hover {
+  box-shadow: 0 0 5px 6px rgb(255, 255, 255);
+}
+
+.heading-row {
+  background-color: rgba(255, 0, 0, 0.979);
+  color: black;
+
+}
+
+#headline {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 36px;
+  color: rgb(158, 253, 253);
+  text-shadow: 2px 1px rgb(255, 255, 255);
+}
+
+table {
+  line-height: 22px;
+  margin: auto;
+
+}
+
+td {
+  font-size: 20px;
+  text-align: center;
+  padding: 16px;
+
+}
+
+table,
+td {
+  border: rgb(248, 232, 139);
+  border-style: solid;
+  border-width: 4px;
+  border-collapse: collapse;
+  border-radius: 30%;
+}
